@@ -3,9 +3,39 @@
     width: 560px;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgba(110, 123, 64, 0.5);
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .grid div {
     height: 70px;
     width: 70px;
+    background-size: contain;
 }
+
+body{
+    background-image: url('images/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+}
+
+.score-board {
+    background-color: rgb(201, 208, 158);
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: 350px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+    color: #85796b;
+  }
